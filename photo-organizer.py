@@ -100,7 +100,7 @@ def set_args(args):
 
 def main():
     
-    parser = argparse.ArgumentParser(description='Config params')
+    parser = argparse.ArgumentParser(description='Photo Organizer is a program to move/copy your photos organizing by date.')
     parser.add_argument('-p', '--path',  help='set the orign path from image files', default='.')
     parser.add_argument('-e', '--exit',  help='set the exit path from image files', default='.')
     parser.add_argument('-x', '--ext', nargs='*', help='set image extensions whitelist. EX.: png jpg (its works just image extensions)', default=image_extensions)
