@@ -28,6 +28,9 @@ if path and exit it is not specified they are the current directory
 # Example
 
 **Copyng**
+
 pyhton photo-organizer.py -c -p /home/user/images -e /home/pictures
 
-**Moving** pyhton photo-organizer.py -p /home/user/images -e /home/pictures
+**Moving** 
+
+pyhton photo-organizer.py -p /home/user/images -e /home/pictures
