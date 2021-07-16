@@ -99,6 +99,8 @@ def set_args(args):
 
 
 def main():
+
+    #main function
     
     parser = argparse.ArgumentParser(description='Photo Organizer is a program to move/copy your photos organizing by date.')
     parser.add_argument('-p', '--path',  help='set the orign path from image files', default='.')
